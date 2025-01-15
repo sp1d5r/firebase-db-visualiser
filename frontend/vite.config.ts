@@ -22,6 +22,12 @@ export default defineConfig(({ mode }) => {
         ]
       }
     },
+    define: {
+      'process.env': process.env,
+      'process.platform': JSON.stringify(''),
+      'process.version': JSON.stringify(''),
+      'process.stdout': 'null'
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src'),
