@@ -15,10 +15,10 @@ export const Landing: React.FC = () => {
           <h2 className="text-3xl max-w-4xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
             Make Your Firebase Data Model{" "}
             <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
-            <div className="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-2 md:py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
+            <div className="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-2 md:py-4 from-purple-500 via-orange-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
                 <span className="">Crystal Clear.</span>
             </div>
-            <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-blue-500 via-violet-500 to-pink-500 py-2 md:py-4">
+            <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-orange-500 via-orange-500 to-pink-500 py-2 md:py-4">
                 <span className="">Crystal Clear.</span>
             </div>
             </div>
@@ -35,7 +35,7 @@ export const Landing: React.FC = () => {
                 <img src="https://avatars.githubusercontent.com/u/38949593?v=4" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
                 <img src="https://avatars.githubusercontent.com/u/38949593?v=4" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
                 <img src="https://avatars.githubusercontent.com/u/38949593?v=4" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
-                <div className="w-10 h-10 rounded-full bg-blue-500 border-2 border-white flex items-center justify-center text-sm font-bold">
+                <div className="w-10 h-10 rounded-full bg-orange-500 border-2 border-white flex items-center justify-center text-sm font-bold">
                   5k+
                 </div>
               </div>
@@ -53,7 +53,7 @@ export const Landing: React.FC = () => {
       </h1>
       
       <div className="grid grid-cols-5 gap-4 mb-4 max-w-6xl mx-auto">
-        <Card className="col-span-3 hover:border-blue-500 ease-in-out">
+        <Card className="col-span-3 hover:border-orange-500 ease-in-out">
           <CardHeader>
             <CardTitle>Instant Schema Generation</CardTitle>
             <CardDescription>
@@ -87,7 +87,7 @@ export const Landing: React.FC = () => {
           </CardContent>
         </Card>
 
-        <Card className="col-span-2 hover:border-blue-500 ease-in-out">
+        <Card className="col-span-2 hover:border-orange-500 ease-in-out">
           <CardHeader>
             <CardTitle>Multi-Format Export</CardTitle>
             <CardDescription>
@@ -108,7 +108,7 @@ export const Landing: React.FC = () => {
 
       <div className="grid grid-cols-5 gap-4 max-w-6xl mx-auto">
         <div className="col-span-2 space-y-4">
-          <Card className="hover:border-blue-500 ease-in-out">
+          <Card className="hover:border-orange-500 ease-in-out">
             <CardHeader>
               <CardTitle>Data Analysis</CardTitle>
               <CardDescription>
@@ -119,7 +119,7 @@ export const Landing: React.FC = () => {
             </CardHeader>
           </Card>
 
-          <Card className="hover:border-blue-500 ease-in-out">
+          <Card className="hover:border-orange-500 ease-in-out">
             <CardHeader>
               <CardTitle>Security First</CardTitle>
               <CardDescription>
@@ -129,7 +129,7 @@ export const Landing: React.FC = () => {
           </Card>
         </div>
 
-        <Card className="col-span-3 hover:border-blue-500 ease-in-out">
+        <Card className="col-span-3 hover:border-orange-500 ease-in-out">
           <CardHeader>
             <CardTitle>Visual Data Model</CardTitle>
             <CardDescription>
@@ -155,7 +155,7 @@ export const Landing: React.FC = () => {
             />
         </div>
         <div className="w-full md:w-1/2 md:pl-8 flex flex-col justify-center dark:text-white">
-            <p className="font-bold text-blue-500">VISUAL SCHEMA MAPPING</p>
+            <p className="font-bold text-orange-500">VISUAL SCHEMA MAPPING</p>
             <h2 className="text-3xl font-bold mb-4">Clear Data Architecture</h2>
             <p className="text-lg mb-6">
             Transform complex Firebase collections into clear, visual representations.
@@ -168,7 +168,7 @@ export const Landing: React.FC = () => {
 
       <div className="flex flex-col md:flex-row max-w-6xl mx-auto my-16 px-4 dark:text-white">
         <div className="w-full md:w-1/2 md:pl-8 flex flex-col justify-center">
-            <p className="font-bold text-blue-500">TYPE-SAFE EXPORTS</p>
+            <p className="font-bold text-orange-500">TYPE-SAFE EXPORTS</p>
             <h2 className="text-3xl font-bold mb-4">Code-Ready Schemas</h2>
             <p className="text-lg mb-6">
             Export your Firebase data model to TypeScript interfaces, Pydantic models,
@@ -189,10 +189,10 @@ export const Landing: React.FC = () => {
       <div className="relative flex items-center justify-center my-50 min-h-[20vh]">
         <div className="absolute w-[100vw] min-h-[20vh] bg-gray-800 flex flex-col justify-center items-center">
             <h1 className="relative text-4xl font-bold m-0">
-                <div className="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-2 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
+                <div className="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-2 from-purple-500 via-orange-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
                     <span className="">Visualize Your Data</span>
                 </div>
-                <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-blue-500 via-violet-500 to-pink-500 py-2">
+                <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-orange-500 via-orange-500 to-pink-500 py-2">
                     <span className="">Visualize Your Data</span>
                 </div>
             </h1>
